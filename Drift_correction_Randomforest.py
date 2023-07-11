@@ -20,7 +20,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold,ShuffleSplit
 from skimage import io
 
-path1='C:\\Projects\\FOR2432\\A_WP3_model\\Agisoft\\'  #D:\\aalmawazreh\\Agisoft\\    C:\\Projects\\FOR2432\\A_WP3_model\\Agisoft\\
+path1='C:\\Projects\\Agisoft\\' 
 os.chdir(path1)
 curdir = os.getcwd()
 

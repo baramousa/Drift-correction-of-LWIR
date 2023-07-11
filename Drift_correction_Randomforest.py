@@ -24,7 +24,7 @@ path1='C:\\Projects\\Agisoft\\'
 os.chdir(path1)
 curdir = os.getcwd()
 
-data=pd.read_csv(path1+'IR_261121_ties.txt',decimal=".",sep="\t",header=None) # IR_261121_ties.txt,, tie_points_with_pxerror.txt
+data=pd.read_csv(path1+'IR_261121_ties_Gh.txt',decimal=".",sep="\t",header=None) # IR_261121_ties.txt,, tie_points_with_pxerror.txt
 data.rename(columns={0: 'camera', 1: 'x',2: 'y',3: 'temp',4: 'tie_point',5: 'n_proj',6:'err_pix'}, inplace=True)
 time_string=[]
 # extract the time from the camera's name

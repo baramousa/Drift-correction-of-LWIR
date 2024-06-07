@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu May  4 10:30:19 2023
-
+A script for correcting thermal drift using the Nearesr Neighbor algorithm
+The input are tie point data exported from Agisoft using the agisoft_py_export_tie_points.py
 @author: Albara
 """
 

@@ -26,7 +26,7 @@ path_pics_out="C:\\Projects\\FOR2432\\A_WP2_on-station\\IR_drone\\pics\\231121_i
 pics=os.listdir(path_pics_in)
 
 # open the text file of the tie points and save them in a data frame
-data=pd.read_csv(path1+'IR_231121_ties_pionts.txt',decimal=".",sep="\t",header=None) 
+data=pd.read_csv(path1+'IR_261121_ties_Gh.txt',decimal=".",sep="\t",header=None) 
 #rename the data frame columns
 data.rename(columns={0: 'camera', 1: 'x',2: 'y',3: 'temp',4: 'tie_point',5: 'n_proj',6:'err_pix'}, inplace=True)
 

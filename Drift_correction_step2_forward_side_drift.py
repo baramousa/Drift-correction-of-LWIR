@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-This is a script for side thermal drift correction. Pre requiste ist to run 'swath_correction_optimized_code_step1_forward_drift.py', which run a forward drift correction 
+This is a script for side thermal drift correction. Pre requiste ist to run 'Drift_correction_step1_forward_drift.py', which run a forward drift correction 
 First estimate the path to the folder to be corrected as well as the output folder
 
 Created on Thu Aug 31 13:31:18 2023
